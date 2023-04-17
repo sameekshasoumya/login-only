@@ -3,12 +3,8 @@ import './Newhome.css';
 
 const Newhome = () => {
     const [userInput,setUserInput] = useState({
-        userfirstname: "",
-        userlastname: "",
         email: "",
-        phone: "",
-        city: "",
-        address: ""
+        password: ""
     });
 
     const handleInput = (e) => {
